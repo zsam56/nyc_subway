@@ -1,0 +1,36 @@
+.background {
+   fill: #eee;
+}
+
+.canvas {
+   position: relative;
+}
+
+svg {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.map-layer {
+   z-index: 0;
+}
+
+.subway-layer {
+   z-index: 1;
+	stroke-width:2;
+	fill:none;
+}
+
+.stations-layer {
+   z-index: 2;
+}
+
+.stations-layer circle:hover{
+   cursor: pointer;
+}
+
+.tip {
+   padding: 10px;
+   z-index: 1000;
+}
